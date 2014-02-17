@@ -3,8 +3,7 @@
 //////////////////////////////////////////
 // utils
 //////////////////////////////////////////
-var Utils = require('./utils.js');
-var utils = new Utils();
+var utils = require('./index.js');
 
 function utils_job_forever() {
     var tasks = [
@@ -31,8 +30,7 @@ function utils_time_isTradeTimeNow(){
 //////////////////////////////////////////
 // job
 //////////////////////////////////////////
-var Job = require('./job.js');
-var job = new Job();
+var job = require('./job.js');
 
 function job_forever() {
     var tasks = [
@@ -45,7 +43,7 @@ function job_forever() {
     ];
     job.forever(tasks);
 }
-//job_forever();
+job_forever();
 
 function job_condition() {
     var tasks = [
@@ -75,8 +73,7 @@ function job_condition() {
 //////////////////////////////////////////
 // num
 //////////////////////////////////////////
-var Num = require('./num.js');
-var num = new Num();
+var num = require('./num.js');
 
 function num_test(){
     console.log(num.getRandomInt(1,5));

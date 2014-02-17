@@ -1,13 +1,13 @@
 {
     "name": "ape-utils",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "utils for APE API",
     "keywords": [
         "utils", "ape", "job"
     ],
     "author": "Conan Zhang <bsspirit@gmail.com> (http://blog.fens.me)",
     "license": "MIT",
-    "main": "utils.js",
+    "main": "index.js",
     "dependencies": {
         "underscore": "~1.4.4",
         "async": "~0.2.9",
