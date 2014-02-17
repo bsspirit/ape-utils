@@ -1,18 +1,16 @@
 {
     "name": "ape-utils",
     "version": "0.0.2",
-    "description": "utils for APE API",
-    "keywords": [
-        "utils", "ape", "job"
-    ],
+    "description": "utils for APE System",
+    "keywords": ["utils", "ape", "job"],
     "author": "Conan Zhang <bsspirit@gmail.com> (http://blog.fens.me)",
-    "license": "private",
+    "license": "MIT",
     "main": "utils.js",
     "dependencies": {
         "underscore": "~1.4.4",
         "async": "~0.2.9",
         "moment": "~2.4.0",
-        "twix":"~0.3.0"
+        "twix": "~0.3.0"
     },
     "engines": {
         "node": ">=v0.10.5"
