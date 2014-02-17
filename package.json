@@ -1,6 +1,6 @@
 {
     "name": "ape-utils",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "utils for APE System",
     "keywords": ["utils", "ape", "job"],
     "author": "Conan Zhang <bsspirit@gmail.com> (http://blog.fens.me)",
