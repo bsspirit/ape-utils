@@ -13,7 +13,7 @@ npm install ape-utils
 
 ## demo
 
-@see example.js
+example.js
 
 ## License
 

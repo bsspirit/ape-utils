@@ -30,7 +30,7 @@ var num = function () {
             buf.push(chars[self.getRandomInt(0, charlen - 1)]);
         }
         return buf.join('');
-    };
+    }
 }
 
 module.exports = num;
